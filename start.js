@@ -13,6 +13,7 @@ const port = Number(argv.port ?? 8088)
 const wss = new WebSocketServer({port});
 const varhub = new VarHubServer();
 
+console.log(`Start server on port ${port}`);
 wss.on("connection", (connection) => {
     connection.binaryType = "nodebuffer";
 

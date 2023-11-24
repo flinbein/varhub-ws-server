@@ -1,4 +1,4 @@
-FROM node:21
+FROM node:alpine3.17
 WORKDIR /home/node/app
 COPY package*.json ./
 COPY start.js ./

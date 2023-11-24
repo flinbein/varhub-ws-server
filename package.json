@@ -1,13 +1,13 @@
 {
   "name": "varhub-ws-server",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "node": ">=20.0.0",
   "type": "module",
   "scripts": {
     "start": "node ./start.js"
   },
   "dependencies": {
-    "varhub": "git+https://github.com/flinbein/varhub#1.0.16",
+    "varhub": "git+https://github.com/flinbein/varhub#1.0.17",
     "ws": "^8.14.2",
     "xjmapper": "git+https://github.com/flinbein/xjmapper#1.0.2",
     "yargs": "^17.7.2"
